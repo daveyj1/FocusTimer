@@ -17,8 +17,6 @@ function App() {
     const minutes = Math.floor((timeDelta % 3600) / 60);
     const seconds = timeDelta % 60;
 
-    //console.log(timeDelta, hours, minutes, seconds);
-
     if (timeDelta === 0 && elapsedTime !== 0) {
       setShouldCount(false);
       setIsTimerDone(true);
